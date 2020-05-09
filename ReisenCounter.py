@@ -21,8 +21,9 @@ def stay(k):
 
 
 while True:
-    n=int(input('Starting Day'))
-    print(h[n])
-    t=int(input('Length of stayings'))
-    stay(t)
+    n=int(input('Starting Day'))#Another possible solution would be 
+    print(h[n])#to sum up given two variables which is alternatively
+    t=int(input('Length of stayings'))#(n+(t%7))%7 mod explains whether 
+    stay(t)#we complete a week or not for all of day accordances stay function compute all conditions
+    #By commiting 2 times mod would be adequate and necessary to realize if we already pass the lenght of the list
    
